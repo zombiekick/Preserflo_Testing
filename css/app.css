@@ -4704,6 +4704,7 @@ a.button:hover, a.button:focus {
   font-size: 0.8em;
   justify-content: center;
   padding: 1em 2em 1em 2em;
+  margin-top: 1em;
 }
 
 .continue-btn span {
@@ -5385,6 +5386,10 @@ table.no-styling {
   font-size: 12px;
 }
 
+#most-common-ae img {
+  margin-top: -3px;
+}
+
 .slide {
   background: url(../img/Background_D.jpg) no-repeat top left;
   background-size: cover;
@@ -5920,7 +5925,7 @@ table.no-styling {
 }
 
 .slide.page14 .smol-p {
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 2em;
 }
 
@@ -5987,6 +5992,13 @@ table.no-styling {
 .full.reveal.info.page18 .primary-graphic {
   width: 85%;
   margin-top: 4em;
+}
+
+.slide video {
+  width: 870px;
+  height: 489px;
+  margin-left: 80px;
+  margin-top: 2em;
 }
 
 .reveal.info.page18 video {
@@ -6184,7 +6196,9 @@ table.no-styling {
 }
 
 .slide.page28 ol li {
-  padding-top: 1em;  
+  padding-top: 1em;
+  font-weight: 500;
+  font-size: 11pt;
 }
 
 .slide.page28 ol li::marker {
@@ -6908,7 +6922,7 @@ div.hideme {
 #navigation nav ul li ul li.active a,
 #navigation nav ul li ul li a:hover,
 #navigation nav ul li ul li a.active {
-  color: #ff8200; }
+  color: #fff; }
 
 #navigation aside ul li ul li:hover {
   color: #ff8200; }
