@@ -4972,7 +4972,6 @@ html.is-reveal-open {
     max-width: none;
     height: 100%;
     height: 100vh;
-    min-height: 100vh;
     margin-left: 0;
     border: 0;
     border-radius: 0; }
@@ -5602,7 +5601,6 @@ table.no-styling {
 .reveal.info.page5 {
   background: url(../img/Background_C.jpg) no-repeat top left;
   background-size: cover;
-  height: 100%;
   width: 100%;
 }
 
