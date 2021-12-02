@@ -6197,7 +6197,7 @@ table.no-styling {
 
 .slide.page28 ol li {
   padding-top: 1em;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 11pt;
 }
 
@@ -6379,6 +6379,19 @@ em.light {
 
 .relative {
   position: relative; }
+
+.close-button {
+  color: #f5f8fb;
+  left: 3.8rem;
+  bottom: 29px;
+  top: auto;
+  font-size: 2rem;
+}
+
+.close-button img {
+  width: 63px;
+  height:auto;
+}
 
 ul ul {
   list-style: none;
@@ -6956,7 +6969,7 @@ div.hideme {
   height: auto;
   position: absolute;
   bottom: 0;
-  left: 20px;
+  left: 14px;
   
   z-index: 1000; }
   .navigation-closed .nav-toggle.navclose2 {
